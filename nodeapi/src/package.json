@@ -1,0 +1,26 @@
+{
+  "name": "tcc-demo",
+  "version": "1.0.0",
+  "description": "Demo API for PUC-RS Graduation Project",
+  "homepage": "https://github.com/andreosm/pucrs-tcc-demo#readme",
+  "bugs": {
+    "url": "https://github.com/andreosm/pucrs-tcc-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreosm/pucrs-tcc-demo.git"
+  },
+  "license": "ISC",
+  "author": "Marcos Andreos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.4"
+  }
+}
